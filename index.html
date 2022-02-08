@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum scale=1.0, user scalable=no">
+    <title>The Untitled Blog</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fav icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--font-awesome-->
+    <script src="https://kit.fontawesome.com/7279c95e8c.js" crossorigin="anonymous"></script>
+    <!-- poppins family font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="blog">
+        <!-- navigation -->
+        <div class="navigation">
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                <i class="fas fa-question-circle"></i>The Untitled Blog
+            </a>
+            <!--post filter-->
+            <nav>
+                <!--menu-icon-->
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+
+                <!--filter-->
+                <ul class="blog-filter">
+                    <li class="list blog-filter-active" data-filter="all">All</li>
+                    <li class="list" data-filter="opinion">Opinion</li>
+                    <li class="list" data-filter="blog">Dairy Blog</li>
+                    <li class="list" data-filter="esports">E-Sports</li>
+                    <li class="list" data-filter="tips">Tips & Tricks</li>
+                    <li class="list" data-filter="movies">Movies Review</li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--ad-->
+        <div class="ad">
+            <a href="#">
+                <img src="image/ad-home.png" alt="ads">
+            </a>
+        </div>
+
+        <!--container-->
+        <div class="blog-container">
+
+
+            <!--box 1-->
+            <div class="blog-box opinion">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/p-1.png" alt="img">
+                    <span class="category">Diary Blog</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="article.html">
+                        <strong>About Me</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Diary Blog</span>
+                        <span class="published-time">20-12-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/pp.jfif" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--box 2-->
+            <div class="blog-box blog">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Diary Blog</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Dairy Blog</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--box 3-->
+            <div class="blog-box esports">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">E-Sports</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">E-Sports</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--box 4-->
+            <div class="blog-box tips">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Tips & Tricks</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Tips & Tricks</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--box 5-->
+            <div class="blog-box movies">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Movies</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Movies</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--box 6-->
+            <div class="blog-box opinion">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Opinion</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Opinion</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--box 7-->
+            <div class="blog-box blog">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Diary Blog</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Diary Blog</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--box 8-->
+            <div class="blog-box tips">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Tips & Tricks</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Tips & Tricks</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--box 9-->
+            <div class="blog-box movies">
+
+                <!--img-->
+                <div class="blog-img">
+                    <img src="image/b-1.jpg" alt="img">
+                    <span class="category">Movies</span>
+                </div>
+
+                <!--text-->
+                <div class="blog-text">
+
+                    <!--title -->
+                    <a href="#">
+                        <strong>Untitled Article</strong>
+                    </a>
+
+                    <!--time&category-->
+                    <div class="category-time">
+                        <span class="blog-category">Movies</span>
+                        <span class="published-time">11-03-2021</span>
+                    </div>
+
+                    <!--publisher profile-->
+                    <div class="publisher-profile">
+                        <img src="image/p-1.png" alt="Publisher">
+                        <span>Rizal Akbar Fitrianto</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--ad-->
+        <div class="ad">
+            <a href="#">
+                <img src="image/ad-home.png" alt="ads">
+            </a>
+        </div>
+
+    </section>
+
+    <!--footer-->
+    <footer>
+        <span class="copyright">Copyright 2021 - TheUntitledBlog</span>
+        <!--social-links-->
+        <div class="footer-social">
+            <a href="https://github.com/RizalAkbarFitrianto"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/6282337055508"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/rizalauditore/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/rizal-akbar-fitrianto-384227213/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="Js/jquery.js"></script>
+    <!--script-->
+    <script type="text/javascript">
+        /*blog-filter-menu*/
+        $(document).on('click', 'blog-filter li', function () {
+            $(this).addClass('blog-filter-active').siblings().removeClass('blog-filter-active')
+        });
+
+        /*post-filter*/
+        $(document).ready(function () {
+            $('.list').click(function () {
+                const value = $(this).attr('data-filter');
+                if (value == 'all') {
+                    $('.blog-box').show('1000');
+                } else {
+                    $('.blog-box').not('.' + value).hide('1000');
+                    $('.blog-box').filter('.' + value).show('1000');
+                }
+
+            });
+        });
+
+        /*for-fix-filter-menu--*/
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 80) {
+                $('nav').addClass('fix-nav');
+            } else {
+                $('nav').removeClass('fix-nav');
+            }
+        });
+    </script>
+</body>
+
+</html>
